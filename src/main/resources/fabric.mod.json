@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "simpleclans",
+	"version": "${version}",
+	"name": "Simple Clans",
+	"description": "A server-side clan management mod for Minecraft",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/simpleclans/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.clans.Simpleclans"
+		]
+	},
+	"mixins": [
+		"simpleclans.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
